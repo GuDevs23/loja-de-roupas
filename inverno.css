@@ -1,0 +1,321 @@
+body {
+    padding: 0%;
+    margin: 0%;
+
+}
+
+header {
+    display: flex;
+    height: 200px;
+    background-color: rgb(2, 0, 14);
+    justify-content: space-around;
+    width: 100%;
+    position: fixed;
+    flex-wrap: wrap;
+    z-index: 100;
+    margin-top: -136px;
+}
+
+
+.cabecalho .foto {
+    width: 150px;
+    height: 100px;
+}
+
+.cabecalho {
+    width: 180px;
+}
+
+
+.cabecalho span {
+    color: cornsilk;
+    font-family: serif;
+    text-align: center;
+    justify-content: center;
+    font-weight: 500;
+    text-align: center;
+    margin-left: 15px;
+
+}
+
+.pesquisa {
+    width: 180px;
+    max-width: 420px;
+    height: 45px;
+    background: transparent;
+    border: 2px solid cornsilk;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 10px cornsilk;
+    margin: 10px;
+    padding: 5px;
+    margin-top: 60px;
+
+}
+
+.pesquisa input {
+    width: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    color: cornsilk;
+    padding-left: 10px;
+
+}
+
+.usuario {
+    display: flex;
+    margin-top: 55px;
+
+}
+
+.usuario span {
+    color: cornsilk;
+    padding: 10px;
+    color: cornsilk;
+    font-family: serif;
+    text-align: center;
+    justify-content: center;
+    font-size: small;
+
+}
+
+.usuario a {
+    text-decoration: none;
+    color: cornsilk;
+    padding: 10px;
+    color: cornsilk;
+    font-family: serif;
+    text-align: center;
+    justify-content: center;
+    font-size: small;
+}
+
+
+.promo {
+    border-top: 1px solid cornsilk;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.logo {
+    width: 130px;
+}
+
+.promo a {
+    text-decoration: none;
+    color: cornsilk;
+    font-family: serif;
+    text-align: center;
+    font-size: medium;
+
+}
+
+.lista a {
+    color: transparent;
+
+}
+
+.teste:hover .lista a {
+    background-color: antiquewhite;
+    display: block;
+    color: black;
+    width: 250px;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.filaum {
+    margin-top: 100px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.foto {
+    height: 300px;
+    width: 350px;
+    text-align: center;
+}
+
+.titulo {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.filadois {
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 200px;
+}
+
+.filatres {
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 200px;
+}
+
+.filaquatro{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 200px;
+}
+.filacinco{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 200px;
+}
+
+
+
+footer {
+    display: block;
+    color: lightgray;
+    margin-top: 180px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+footer span {
+    text-align: center;
+}
+
+
+.texto {
+    font-size: 30px;
+}
+
+
+.rodape {
+    background-color: black;
+    margin-top: 1px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.depto ul {
+    margin-top: 25px;
+
+}
+
+.rodape li {
+    list-style-type: none;
+    padding: 8px;
+    font-size: 15px;
+}
+
+.depto span {
+    font-size: 25px;
+    text-align: center;
+    margin-left: 80px;
+    width: 280px;
+    display: flex;
+
+}
+
+.depto a {
+    text-decoration: none;
+    color: cornsilk;
+}
+
+.depto a:hover {
+    color: black;
+}
+
+.contato {
+    color: cornsilk;
+
+}
+
+.conexao li {
+    display: inline;
+}
+
+.conexao h3 {
+    color: cornsilk;
+    margin-left: 25px;
+}
+.titulo-um{display: none;}
+
+@media screen and (min-width: 300px) and (max-width: 914px) {
+    .filaum {
+        margin-top: 0px;
+        display: flex;
+        width: 100%;
+      flex-wrap: wrap;
+    }
+    .foto{
+        padding: 50px;
+        width: 480px;
+        height: 600px;
+    }
+    header {
+        visibility: hidden;
+    }
+
+    nav {
+        visibility: visible;
+        width: 108%;
+    }
+    .filadois{
+        margin-top: 0px;
+        display: flex;
+        width: 100%;
+      flex-wrap: wrap;
+    }
+    .filatres{
+        margin-top: 0px;
+        display: flex;
+        width: 100%;
+      flex-wrap: wrap;
+    }
+    .filaquatro{
+        margin-top: 100px;
+        display: flex;
+        width: 100%;
+      flex-wrap: wrap;
+    }
+    .filacinco{
+        margin-top: 100px;
+        display: flex;
+        width: 100%;
+      flex-wrap: wrap;
+    }
+.titulo-um{
+    margin-top: 100px;
+    font-family:'Courier New', Courier, monospace ;
+font-size:25px ;
+display: flex;
+}    
+.titulo{
+    margin-top: 100px;
+    font-family:'Courier New', Courier, monospace ;
+font-size: 15px ;
+}
+
+}
