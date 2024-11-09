@@ -10,5 +10,5 @@
 <hr>
 <h1>Home Page</h1>
 <p> Tela inicial do site.</p>
-<img src="img/boss.jpg">
+<img src="img/print/home.png">
 
