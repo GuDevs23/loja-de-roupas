@@ -10,4 +10,5 @@
 <hr>
 <h1>Home Page</h1>
 <p> Tela inicial do site.</p>
-<video src="img/homepage.mp4"></video>
+[image](https://github.com/user-attachments/assets/df8010ee-0016-40ba-acf6-782dbf09fc6c)
+
